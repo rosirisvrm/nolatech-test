@@ -1,0 +1,54 @@
+.services{
+  background-color: #F5F6FA;
+}
+
+.services-title{
+  font-size: 4.1rem;
+}
+
+.services-p{
+  margin-right: 20rem;
+  margin-left: 20rem;
+  font-size: 1.25rem;
+}
+
+.services-btn{
+  background-color: transparent;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 16px 42px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 64px;
+  border: 2px solid #000000;
+}
+
+.services-btn:hover{
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .services-title{
+    font-size: 2rem;
+  }
+
+  .services-p{
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  .services-btn{
+    padding: 12px 36px !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .services-p{
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+    font-size: 1rem !important;
+  }
+}

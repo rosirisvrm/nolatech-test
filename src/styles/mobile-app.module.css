@@ -1,0 +1,54 @@
+.mobile-app{
+    background-image: url('../../public/images/Pic6.png');
+    height: 800px;
+    min-height: 400px;
+    overflow: auto;
+    background-size: cover;
+    background-color: #F5F6FA;
+}
+
+.mobile-app-btn{
+    background-color: #03B044;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 16px 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 86px;
+}
+
+.mobile-app-btn:hover{
+    background-color: #07913B !important;
+    color: #FFFFFF !important;
+}
+
+.mobile-app-title{
+    font-size: 4.5rem;
+  }
+  
+.mobile-app-p{
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-app{
+        height: 700px;
+    }
+    
+    .mobile-app-title{
+        font-size: 2rem;
+      }
+
+    .mobile-app-btn{
+        padding: 12px 24px !important;
+        font-size: 1rem !important;
+        margin-top: 65px !important;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .mobile-app-p{
+      font-size: 1rem !important;
+    }
+  }
+

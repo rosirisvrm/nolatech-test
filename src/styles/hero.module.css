@@ -1,0 +1,60 @@
+.hero{
+    background-image: url('../../public/images/Prb\ Header.png');
+    height: 700px;
+    min-height: 400px;
+    overflow: auto;
+    background-size: cover;
+    background-position: top 100% center;
+}
+
+.hero-btn{
+    background-color: #03B044;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 86px;
+}
+
+.hero-btn:hover{
+    background-color: #07913B !important;
+    color: #FFFFFF !important;
+}
+
+.hero-title{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 1348px) {
+    .hero{
+        background-size: auto;
+        height: 600px;
+    }
+
+    .hero-title{
+        font-size: 3rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-title{
+        font-size: 2.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-title{
+        font-size: 2rem !important;
+    }
+
+    .hero-btn{
+        padding: 12px 24px !important;
+        font-size: 1rem !important;
+        margin-top: 65px !important;
+    }
+}
+

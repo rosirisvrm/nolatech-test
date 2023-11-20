@@ -1,0 +1,27 @@
+.about-us-title{
+  font-size: 4.1rem;
+}
+
+.about-us-p{
+  font-size: 1.5rem;
+}
+  
+.about-us-img{
+  width: 550px;
+  height: 550px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-title{
+    font-size: 2rem;
+  }
+
+  .about-us-p{
+    font-size: 1.25rem;
+  }
+
+  .about-us-img{
+    width: 400px;
+    height: 400px;
+  }
+}

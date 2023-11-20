@@ -1,0 +1,68 @@
+.join-us{
+    background-image: url('../../public/images/Join Us.png');
+    height: 950px;
+    min-height: 400px;
+    background-size: cover;
+    background-color: #F5F6FA;
+}
+
+.join-us-input{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+}
+
+.join-us-input::placeholder{
+    color: #9A9A9A;
+    font-weight: 600;
+}
+
+.join-us-input:active{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.join-us-input:focus-visible{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.join-us-btn{
+    background-color: #03B044;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 16px 42px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.join-us-btn:hover{
+    background-color: #07913B !important;
+    color: #FFFFFF !important;
+}
+
+.join-us-title{
+    font-size: 4.5rem;
+  }
+  
+.join-us-p{
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .join-us-title{
+        font-size: 2rem;
+      }
+
+    .join-us-btn{
+        padding: 12px 24px !important;
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .join-us-p{
+      font-size: 1rem !important;
+    }
+  }
+
